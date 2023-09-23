@@ -21,7 +21,15 @@
 .signBtn{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .sign .leftDiv{
     width: 100%;
+}
+.btn {
+    width: fit-content;
+}
+.singUp a{
+    font-weight: 400;
 }
