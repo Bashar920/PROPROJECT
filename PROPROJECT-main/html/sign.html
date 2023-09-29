@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
     <!-- <link rel="stylesheet" href="../css/sign.css"> -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/sign.css">
@@ -71,28 +71,30 @@
                 <h1 class="mainTitle">
                     Sign In
                 </h1>
+                
                 <div class="row w-100">
                     <div class="col-6">
                         <div class="leftDiv">
-
+                      
                             <div class="mb-3 inputDiv">
                                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required >
                               </div>
                               <div class="mb-3 inputDiv">
                                 <label for="exampleFormControlInput1" class="form-label">password</label>
-                                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="password" required>
                               </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6" >
                         <div class="mb-3 inputDiv signBtn">
-                            <input type="button"  value="Sign In" class="btn btn-primary " id="exampleFormControlInput1" placeholder="name@example.com">
-                            <span class="singUp"> Dont Have An Auount <a href="signup.html">Sing Up!</a></span>
+                           <!-- <a href="../index.html"> <input type="button"  value="Sign In" class="btn btn-primary " id="exampleFormControlInput1" placeholder="name@example.com"></a> -->
+                           <input type="button"  value="Sign In" class="btn btn-primary " id="exampleFormControlInput1" placeholder="name@example.com">
+                            <span class="singUp"> Dont Have An Auount <a href="signup.html">Sign Up!</a></span>
                           </div>
                     </div>
                 </div>
-                
+            
                   
             </div>
             <div class="sign2">
@@ -146,6 +148,7 @@
             </div>
           </div>
       </section>
+      <script src="../js/sign.js"></script>
       <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
